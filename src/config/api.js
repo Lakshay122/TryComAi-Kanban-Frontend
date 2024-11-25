@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Define the base URL for the API
-const API_BASE_URL = "http://localhost:8080/api"; // Replace with your actual API URL
+const API_BASE_URL = "https://trycomai-kanban-backend.onrender.com/api"; // Replace with your actual API URL
 
 // Fetch all todo
 export const getAllTodos = async () => {
